@@ -81,7 +81,7 @@ input#enviar:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    label.estado {
+    label#estado {
         width: 60px;
     }
 

@@ -81,6 +81,10 @@ input#enviar:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    label.estado {
+        width: 60px;
+    }
+
     input#enviar {
         width: 120px;
         text-align: center;

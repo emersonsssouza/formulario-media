@@ -59,7 +59,7 @@ input#enviar:hover {
         width: 450px;
         height: 610px;
         padding: 20px;
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 100vh;
         margin: auto;
     }
@@ -75,22 +75,3 @@ input#enviar:hover {
 
 }  
 
-@media (max-width:450px) {
-    form{
-        width:350px;
-        height: 900px;
-        padding: 20px;
-        font-size: 15px;
-        margin-top: 90vh;
-        margin: auto;
-    }
-
-    input {
-        width: 70px;
-    }
-
-    input#enviar {
-        width: 100px;
-        text-align: center;
-    }
-}

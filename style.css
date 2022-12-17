@@ -59,13 +59,13 @@ input#enviar:hover {
         width: 450px;
         height: 610px;
         padding: 20px;
-        font-size: 15px;
-        margin-top: 100vh;
+        font-size: 17px;
+        margin-top: 90vh;
         margin: auto;
     }
 
     input {
-        width: 90px;
+        width: 100px;
     }
 
     input#enviar {

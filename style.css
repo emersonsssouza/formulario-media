@@ -78,10 +78,10 @@ input#enviar:hover {
 @media (max-width:450px) {
     form{
         width:350px;
-        height: 810px;
+        height: 910px;
         padding: 20px;
         font-size: 20px;
-        margin-top: 100vh;
+        margin-top: 90vh;
         margin: auto;
     }
 

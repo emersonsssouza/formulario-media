@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: aqua;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    height: 630px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 6px 7px 5px black;
+    border-radius: 5px;
+}
+
+form h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+p.left {
+    text-align: left;
+}
+
+input#enviar {
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    color: white;
+    border-radius: 3px;
+}
+
+input#enviar:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    border: red;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 450px;
+        height: 610px;
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 100vh;
+        margin: auto;
+    }
+
+    input {
+        width: 90px;
+    }
+
+    input#enviar {
+        width: 120px;
+        text-align: center;
+    }
+
+}  
+
+@media (max-width:450px) {
+    form{
+        width:350px;
+        height: 510px;
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 100vh;
+        margin: auto;
+    }
+
+    input {
+        width: 70px;
+    }
+
+    input#enviar {
+        width: 100px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-image: url(../imagens/Planet9_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+}
+
+header > h1, p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+main.principal {
+    width: 600px;
+    height: 570px;
+    border-radius: 10px;
+    background-color: #DAEAED;
+    margin: auto;
+}
+
+form {
+    padding: 10px;
+}
+
+label{
+    width: 100%;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+}
+
+div.campo {
+    display: block;
+    margin: 10px;
+}
+
+div.campo-estado{
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;
+    align-items: center;
+    margin: 10px 10px;
+    width: 40%;
+}
+
+
+div.campo-foto{
+    display: flex;
+    width: 60%; 
+    justify-content: left;
+    justify-items: left;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+input[type=file] {
+    width: 2000px;
+    height: 30px;
+    align-items: center;
+}
+
+div.campo-pais{
+    display: flex;
+    width: 40%;
+    justify-content: left;
+    justify-items: left;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+select{
+    margin-right: 50px;
+}
+
+div.campo-msg{
+    display: block;
+    justify-content: left;
+    margin: 10px 10px;
+}
+
+div.campo-check, input[type=checkbox] {
+    display: flex;
+    width: 40%;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+input[type=submit]  {
+    display: flex;
+    margin: auto;
+    width: 25%;
+    height: 50px;
+    padding: 10px 40px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px solid black;   
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+}

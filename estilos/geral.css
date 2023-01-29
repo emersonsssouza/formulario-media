@@ -12,6 +12,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top ;
+    background-attachment: fixed;
 }
 
 header > h1, p{
@@ -55,6 +56,10 @@ div.campo-estado{
     align-items: center;
     margin: 10px 10px;
     width: 40%;
+}
+
+select#estado {
+    width: 100%;
 }
 
 

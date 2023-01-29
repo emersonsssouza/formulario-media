@@ -11,5 +11,9 @@
     select#ipais {
         width: 100%;
     }
+
+    div.campo-estado {
+        width: 100%;
+    }
     
 }

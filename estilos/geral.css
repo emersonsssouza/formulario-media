@@ -24,7 +24,7 @@ header > h1, p{
 
 main.principal {
     width: 600px;
-    height: 570px;
+    height: 580px;
     border-radius: 10px;
     background-color: #DAEAED;
     margin: auto;
@@ -75,6 +75,8 @@ div.campo-foto{
 input[type=file] {
     width: 2000px;
     height: 30px;
+    justify-content: left;
+    justify-items: left;
     align-items: center;
 }
 

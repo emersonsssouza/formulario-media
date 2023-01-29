@@ -1,7 +1,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
     main.principal {
         width: 350px;
-        height: 600px;
+        height: 620px;
     }
 
     select#iestado {
@@ -13,6 +13,22 @@
     }
 
     div.campo-estado {
+        width: 100%;
+    }
+
+    div.campo-foto {
+        width: 100%;
+    }
+
+    input [type=file] {
+        width: 100%;
+    }
+
+    div.campo-pais {
+        width: 100%;
+    }
+
+    select#ipais {
         width: 100%;
     }
     

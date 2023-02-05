@@ -38,6 +38,7 @@
     select#iestado, select#ipais, input[type=file] {
         width: 150px;
         height: 30px;
+        background-color: white;
     }
 
     div.caixa2 {

@@ -8,118 +8,84 @@
 }
 
 body, html {
+    width: 98vw;
+    height: 100vh;
     background-image: url(../imagens/Planet9_3840x2160.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top ;
-    background-attachment: fixed;
+    background-position: bottom;
 }
 
 header > h1, p{
     color: white;
     text-align: center;
-    padding: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
     margin: 5px;
 }
 
-main.principal {
-    width: 600px;
-    height: 580px;
+main {
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(120deg, #b561008c, #753e0093, #f5830096, #361d0088, #db750088);
     border-radius: 10px;
-    background-color: #DAEAED;
+    border: 2px solid #A3E686;
     margin: auto;
+    margin-top: 100px;
 }
 
 form {
+    width: auto;
     padding: 10px;
 }
 
 label{
-    width: 100%;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
 }
 
 input{
-    width: 100%;
+    display: flex;
+    width: 300px;
     height: 20px;
 }
 
-div.campo {
-    display: block;
-    margin: 10px;
-}
-
-div.campo-estado{
+div.caixa {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    justify-items: left;
-    align-items: center;
-    margin: 10px 10px;
-    width: 40%;
+    margin-top: 10px;
 }
 
-select#estado {
-    width: 100%;
+select#iestado, select#ipais {
+    width: 300px;
 }
 
-
-div.campo-foto{
-    display: flex;
-    width: 60%; 
-    justify-content: left;
-    justify-items: left;
-    align-items: center;
-    margin: 10px 10px;
-}
-
-input[type=file] {
-    width: 2000px;
-    height: 30px;
-    justify-content: left;
-    justify-items: left;
-    align-items: center;
-}
-
-div.campo-pais{
-    display: flex;
-    width: 40%;
-    justify-content: left;
-    justify-items: left;
-    align-items: center;
-    margin: 10px 10px;
-}
-
-select{
-    margin-right: 50px;
-}
-
-div.campo-msg{
+textarea#IMSG {
     display: block;
-    justify-content: left;
-    margin: 10px 10px;
+    margin-top: 5px;
 }
 
-div.campo-check, input[type=checkbox] {
-    display: flex;
-    width: 40%;
-    justify-content: left;
+div.caixa2 {
+    display: inline-flex;
     align-items: center;
-    text-align: center;
+    width: 20px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: left;
 }
 
-input[type=submit]  {
+input [type=checkbox] {
     display: flex;
-    margin: auto;
-    width: 25%;
-    height: 50px;
-    padding: 10px 40px;
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
-    border: 2px solid black;   
-    border-radius: 10px;
 }
 
-input[type=submit]:hover {
-    background-color: yellow;
+input#enviar {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
 }

@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="estilos/geral.css">
-    <link rel="stylesheet" href="estilos/media.css" orientation="portrait" media="all" >
+    <link rel="stylesheet" href="estilos/geral.css" media="all">
+    <link rel="stylesheet" href="estilos/media.css" media="screen and (orientation: portrait)">
 </head>
 <body>
-   <header>
-     <h1>Cadastro vizinhança solidaria</h1>
-   </header>
+  
+  <main>
 
-    <main class="principal">
-     
+  
+    <header>
+      <h1>Cadastro vizinhança solidaria</h1>
+    </header>
+
+  
       <form action="cadastro.php" method="get">
                
-        <div class="campo">
+        <div class="caixa">
           <label for="inome">Nome:</label>
-          <input type="text" name="Nome" id="inome" required>
+          <input type="text" name="Nome" id="inome" required placeholder="Digite seu nome">
          </div> 
 
-          <div class="campo">
+          <div class="caixa">
             <label for="isobrenome">Sobrenome:</label>
-              <input type="text" name="Sobrenome" id="isobrenome" required>
+              <input type="text" name="Sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome">
           </div>
       
-        <div class="campo-estado">
+        <div class="caixa">
           <label id="estado" for="iestado">Estado:</label>
             <select name="estado" id="iestado" required>
               <optgroup label="Região Sudeste">
@@ -37,8 +40,6 @@
                       <option value="ES">Espirito Santo</option>
                         </optgroup>
             
-                
-        <div class="campo">
           <optgroup label="Região Nordeste">
             <option value="MA">Maranhão</option>
               <option value="PE">Pernambuco</option>
@@ -76,22 +77,22 @@
                                        </optgroup>
        </div>
                       
-        <div class="campo">
+        <div class="caixa">
           <label for="iemail">E-mail:</label >
-            <input type="email" name="email" id="iemail" required>
+            <input type="email" name="email" id="iemail" required placeholder="Ex: exemplo@gmail.com">
         </div>        
                     
-          <div class="campo">
+          <div class="caixa">
             <label for="ICel">Tel:</label>
               <input type="tel" name="Telefone" id="ICel" required placeholder="(xx)xxxxx-xxxx">
           </div>           
                  
-          <div class="campo-foto">
+          <div class="caixa">
             <label for="ifoto">Foto:</label>
               <input type="file" name="Foto" id="ifoto">
           </div>
                     
-          <div class="campo-pais">
+          <div class="caixa">
             <label for="ipais">Pais:</label>
               <select name="Pais" id="ipais">
                 <option value="BR">Brasil</option>
@@ -110,21 +111,18 @@
                                      </select>
           </div>
                  
-          <div class="campo-msg">
+          <div id="caixa">
             <label for="IMSG"></label>
                 <textarea
                  name="msg" id="IMSG" cols="30" rows="10" placeholder="Digite uma mensagem">
                 </textarea>
           </div>      
             
-          <div class="campo-check">
-            <input type="checkbox" name="CAIXA" id="checkbox" required><label for="checkbox">Aceito a politica de privacidade</label>
-          </div>
+        <div class="caixa2"><input type="checkbox" value="">Aceito a politica de privacidade</div>
                
           <input id="enviar" type="submit" value="Enviar">     
                      
       </form>
     </main>
-    
 </body>
 </html>

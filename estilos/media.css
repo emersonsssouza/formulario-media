@@ -1,35 +1,35 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    main.principal {
-        width: 350px;
-        height: 620px;
-    }
-
-    select#iestado {
-        width: 100%;
-    }
-
-    select#ipais {
-        width: 100%;
-    }
-
-    div.campo-estado {
-        width: 100%;
-    }
-
-    div.campo-foto {
-        width: 100%;
-    }
-
-    input [type=file] {
-        width: 100%;
-    }
-
-    div.campo-pais {
-        width: 100%;
-    }
-
-    select#ipais {
-        width: 100%;
+@media screen and (orientation: portrait) and (min-width: 320px) and (max-width: 480px) {
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     
+    main {
+        width: 280px;
+        height: 470px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    input#enviar {
+        margin-top: 20px;
+    }
+
+    textarea#IMSG {
+        width: 260px;
+        height: 50px;
+    }
+
+    select#iestado, select#ipais {
+        width: 150px;
+    }
 }

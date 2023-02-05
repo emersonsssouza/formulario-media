@@ -16,6 +16,12 @@
         margin-bottom: 10px;
     }
 
+    label {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+
     input {
         width: 150px;
     }
@@ -26,10 +32,24 @@
 
     textarea#IMSG {
         width: 260px;
-        height: 50px;
+        height: 200px;
     }
 
     select#iestado, select#ipais {
         width: 150px;
+    }
+
+    div.caixa2 {
+        display: inline-flex;
+        align-items: center;
+        width: 20px;
+        height: 40px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    input [type=checkbox] {
+        display: flex;
+        margin-left: 20px;
     }
 }

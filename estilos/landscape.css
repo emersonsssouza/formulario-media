@@ -1,0 +1,43 @@
+@media screen and (orientation: landscape) {
+    
+    body, html {
+        
+        background-image: linear-gradient(95deg,#AB373C,#6B2226,#EB4B53,  #FA4F58, #D1434A);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    main {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    input#enviar {
+        margin-top: 20px;
+    }
+
+    textarea#IMSG {
+        width: 260px;
+        height: 150px;
+    }
+
+    select#iestado, select#ipais, input[type=file] {
+        width: 150px;
+        height: 30px;
+        background-color: white;
+    }
+}
